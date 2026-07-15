@@ -89,8 +89,8 @@ Feature-rich e-commerce platform with inventory management, search/filter by nam
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=prarambha7&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prarambha7&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=prarambha7&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=prarambha7&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs"/>
 </p>
 
 <p align="center">
@@ -119,6 +119,7 @@ Feature-rich e-commerce platform with inventory management, search/filter by nam
   <a href="https://github.com/prarambha7" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:prarambhakhadka@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://prarambha.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-6366f1?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 </p>
 
 ---
@@ -134,10 +135,11 @@ Feature-rich e-commerce platform with inventory management, search/filter by nam
 ## 🛠 Setup Notes (to activate "live" elements)
 
 1. **GitHub username is already set** to `prarambha7` in all stats/snake URLs above — no change needed unless it's wrong.
-2. **LinkedIn link** — I left this as `#` since your PDF only listed your name, not a profile URL. Send me your LinkedIn URL (e.g. `linkedin.com/in/your-handle`) and I'll wire it in.
-3. **GitHub Stats / Streak / Activity Graph** — hosted images, no setup needed; they refresh automatically.
-4. **Contribution Snake animation** — needs a one-time setup:
+2. **LinkedIn link** — still `#` since your PDF only listed your name, not a profile URL. Send me the URL (e.g. `linkedin.com/in/your-handle`) and I'll wire it in.
+3. **GitHub Stats / Top Langs** — the original `github-readme-stats.vercel.app` service currently has its public deployment **paused by its owner** (503 error), which broke these badges site-wide, not just for you. I've switched your README to **`github-stats-extended.vercel.app`**, an actively-maintained drop-in replacement, so these should render correctly now.
+4. **Streak Stats / Activity Graph** — these use different services and are unaffected by the above outage; they should already work as long as your username is correct.
+5. **Contribution Snake animation** — this one isn't broken, it just isn't set up yet. It only appears after you:
    - Add `.github/workflows/snake.yml` in a repo named exactly `prarambha7` (your GitHub profile repo).
    - Use the [`Platane/snk`](https://github.com/Platane/snk) Action (search "github contribution snake action" for the copy-paste workflow).
-   - It runs on a schedule and commits an SVG to an `output` branch, which the image above points to.
-5. **Phone number** — I left it out of the public README since phone numbers are usually kept off public profiles; let me know if you'd like it added anyway.
+   - The workflow runs on a schedule and commits an SVG to an `output` branch, which is what the image tag points to — nothing shows until that branch exists.
+6. **Phone number** — left out of the public README since phone numbers are usually kept off public profiles; let me know if you'd like it added anyway.
